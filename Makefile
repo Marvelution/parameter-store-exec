@@ -1,4 +1,4 @@
-PACKAGE = github.com/cultureamp/parameter-store-exec
+PACKAGE = github.com/marvelution/parameter-store-exec
 VERSION = $(shell git describe --tags --candidates=1 --dirty)
 FLAGS=-X main.Version=$(VERSION) -s -w
 
